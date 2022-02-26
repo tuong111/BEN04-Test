@@ -88,7 +88,7 @@ const MinShop1_d = () => {
     let result = ''
     for (let i = 0; i < books.length; i++) {
         if (books[i].bcost >= a) {
-            result = books[i].bcost 
+            result = books[i].bcode 
         } 
     }
     return result
