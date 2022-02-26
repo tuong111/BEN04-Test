@@ -161,7 +161,7 @@ const Tinhtungdonhang = (donhang) => {
     let booksID = donhang.orderLists
     let doanhthu1don = 0
     for (let i = 0; i < booksID.length; i++){
-        doanhthu1don =+ LaytienbangID(booksID[i])
+        doanhthu1don =doanhthu1don + LaytienbangID(booksID[i])
     }
     return doanhthu1don
 }
@@ -175,3 +175,5 @@ const LaytienbangID = (id) => {
     }
     return cost
 }
+
+MinShop2_c()
