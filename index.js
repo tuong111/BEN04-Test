@@ -150,7 +150,7 @@ const MinShop2_b = () => {
 const MinShop2_c = () => {
     let totalCost = 0
     for (let i = 0; i <orders.length; i++) {
-        totalCost =+ Tinhtungdonhang(orders[i])
+        totalCost = totalCost + Tinhtungdonhang(orders[i])
     }
     console.log(totalCost)
     return totalCost    
